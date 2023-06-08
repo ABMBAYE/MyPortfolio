@@ -929,7 +929,14 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-
+.contact .php-email-form .success-message {
+  display: none;
+  color: #fff;
+  background: green;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
 .contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
@@ -1129,4 +1136,10 @@ section {
   left: 0;
   width: 60%;
   width: 60%;
+}
+
+.success-message {
+  background-color: green;
+  color: white;
+  padding: 10px;
 }
