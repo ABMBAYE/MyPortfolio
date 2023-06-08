@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     // Construit le contenu du message
     $body = "Prénoms(s) : $prenom\n";
-    $body = "Nom : $nom\n";
+    $body .= "Nom : $nom\n";
     $body .= "Email : $email\n";
     $body .= "Subject : $subject\n";
     $body .= "Message : $message\n";
