@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     // Vérifie si l'envoi a réussi
     if ($success) {
-        echo "success";
+        echo '<div class="success">Votre mail a été envoyé avec success</div>';
     } else {
         echo "error";
     }
